@@ -14,7 +14,7 @@ html {
 }
 
 body {
-    background-color:  #282A36;
+    background-color: #282A36;
     height: 100vh;
     font-weight: 400;
     color: #3BB8F0;
@@ -117,7 +117,7 @@ main {
 }
 
 .btn--hold {
-    
+
     right: 50%;
     bottom: 17%;
     transform: translate(50%);
@@ -142,7 +142,7 @@ main {
 .btn img {
 
     padding-right: 1rem;
-   
+
 }
 
 .dice {
@@ -171,21 +171,25 @@ main {
 
 .show-modal div {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: flex-start;
     font-size: 2rem;
 
 }
+
 .show-modal p {
     font-size: 1.5rem;
 }
+
 .show-modal span {
     color: #FF008E;
 }
+
 .show-modal p span {
     font-size: 2rem;
     font-weight: 600;
 }
+
 .close-modal {
     font-size: 4rem;
     border: none;
@@ -197,19 +201,21 @@ main {
 .hidden {
     display: none;
 }
+
 .overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100vw;
     height: 100vh;
-background-color: #3bb7f06e;
-backdrop-filter: blur(3px);
-z-index: 1;
+    background-color: #3bb7f06e;
+    backdrop-filter: blur(3px);
+    z-index: 1;
 }
+
 .winner {
     background-color: #FF008E;
-    
+
 }
 
 .winner h1 {
