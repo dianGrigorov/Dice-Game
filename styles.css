@@ -224,6 +224,9 @@ main {
     font-size: 5rem;
 }
 @media only screen and (max-width: 480px) {
+    main {
+        height: 90%;
+    }
   .player h1{
     font-size: 2rem;
     
@@ -241,6 +244,12 @@ main {
 .btn--hold {
     bottom: 5%;
     
+}
+.btn--rules {
+    top: 5%;
+}
+.btn--new{
+    top: 5%;
 }
 .dice {
     width: 8rem;
