@@ -223,3 +223,34 @@ main {
     font-weight: 600;
     font-size: 5rem;
 }
+@media only screen and (max-width: 480px) {
+  .player h1{
+    font-size: 2rem;
+    
+  }
+.player .current p{
+    font-size: 1.5rem;
+}
+.btn {
+    font-size: 1.2rem;
+}
+.btn--roll {
+    bottom: 35%;
+    
+}
+.btn--hold {
+    bottom: 5%;
+    
+}
+.dice {
+    width: 8rem;
+    height: 8rem;
+}
+.show-modal {
+    width: 80%;
+}
+.show-modal h1{
+   
+    font-size: 2rem;
+}
+}
